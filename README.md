@@ -1,4 +1,4 @@
-# Robolar İçin Matematik Temelleri 2019-2020 Sonbahar Ders Notları 
+# Robotlar İçin Matematik Temelleri 2019-2020 Sonbahar Ders Notları 
 
 > Kocaeli Universitesi robotlar icin matematik temelleri dersinde aldıgım notlar ve odevler ve çalışmaları içerir 
 > Önek olarak Sinyal ve Sistem dersi notları'da içerir 
