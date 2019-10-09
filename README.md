@@ -2,12 +2,17 @@
 
 > Kocaeli Universitesi robotlar icin matematik temelleri dersinde aldıgım notlar ve odevler ve çalışmaları içerir 
 > Önek olarak Sinyal ve Sistem dersi notları'da içerir 
+
 ## Araçlar 
  - GNU Octave 
  - İhtiyaç olursa MATLAB
  - C++14
  - C++ Egien
  
+## Notlar 
+ - Octave built-in .m dosyaları: /usr/share/octave/4.4.1
+
+
 Octave'ın Debian tabanlı sistemlerde kurulumu
 ```sh
  $ sudo apt install octave 
