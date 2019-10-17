@@ -3,7 +3,7 @@ a = [5 45, 9.3 sqrt(-6)] % virgul bosluk fark etmiyor
 b = [1,2,3,4,5]
 b = [b,6,7,8,9] % genisleyen matris 
 
-H1 , H2= [1,2,3;1,2,3] , [1,2,3;1,2,3] % bekledigin gibi çalışmıyor parabirimi gosterimindede 
+%H1 , H2= [1,2,3;1,2,3] , [1,2,3;1,2,3] % bekledigin gibi çalışmıyor parabirimi gosterimindede 
 
 e = [5 6 ; 7 8]; % satır calisir ekranda gosterilmez
 
@@ -59,5 +59,4 @@ x == 0 % akıllıca oldu
 y = [-8 0 1; 2 3 4.5] 
 a = find(y >= -1)
 konumlar = find(x<0)
-
 y(konumlar) = -1 * y(konumlar)
