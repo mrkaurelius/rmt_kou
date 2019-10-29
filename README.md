@@ -4,11 +4,16 @@
 > Önek olarak Sinyal ve Sistem dersi notları'da içerir 
 
 ## Araçlar 
- - GNU Octave 
- - İhtiyaç olursa MATLAB
+ - MATLAB
+ - GNU Octave (Alternatif)
  - C++14
  - C++ Egien
  
+## Konular 
+ - ! konulari derle
+ - ! hocanin sitesinden konulari derle 
+ - ! mlxleri incele 
+
 ## Notlar 
  - Octave built-in .m dosyaları: /usr/share/octave/4.4.1
 
