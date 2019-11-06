@@ -5,6 +5,7 @@
 
 ## Araçlar 
  - MATLAB
+ - robotic system toolbox
  - GNU Octave (Alternatif)
  - C++14
  - C++ Egien
@@ -15,7 +16,8 @@
  - ! mlxleri incele 
 
 ## Notlar 
- - Octave built-in .m dosyaları: /usr/share/octave/4.4.1
+ - octave den oturu olusan syntax hatalarını duzelt
+ - okuldaki labla uyumlu hale getir 
 
 
 Octave'ın Debian tabanlı sistemlerde kurulumu
