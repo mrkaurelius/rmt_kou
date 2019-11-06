@@ -5,19 +5,18 @@
 
 ## Araçlar 
  - MATLAB
- - robotic system toolbox
+ - Robotics Toolbox (Peter Corke)
  - GNU Octave (Alternatif)
  - C++14
  - C++ Egien
  
 ## Konular 
- - ! konulari derle
- - ! hocanin sitesinden konulari derle 
  - ! mlxleri incele 
 
 ## Notlar 
- - octave den oturu olusan syntax hatalarını duzelt
- - okuldaki labla uyumlu hale getir 
+ - Octave syntaxını matlab sytaxıca cevir
+ - Repository'i laboratuvar'a uyumlu hale getir 
+ - Dosyaları ve isimleri düzenle
 
 
 Octave'ın Debian tabanlı sistemlerde kurulumu
@@ -29,4 +28,5 @@ C++ Compiler setinin Debian tabanlı sistemlerde kurulumu
 ```sh
 $ sudo apt install build-essential
 ```
+
 [![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
