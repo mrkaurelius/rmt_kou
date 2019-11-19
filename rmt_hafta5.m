@@ -1,0 +1,1 @@
+% notlari al ?

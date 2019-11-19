@@ -1,9 +1,6 @@
-% !!! conv fonksyonunun implementasyonu
-% KENDIN IMPLEMENT ET 
-% PLOT 
-
-%sin fonk radyan bekler 
-%sind derece bekler 
+%% sinus grafiği
+% sin fonk radyan bekler 
+% sind derece bekler 
 x = -180:180
 y = sind(x)
 
@@ -12,7 +9,7 @@ ylabel("y")
 plot(x, y)
 grid on
 
-%%
+%% grafik işlemleri
 x = 0: pi/ 360 : 2*pi; % 0’dan 360’a açı dizisi oluşturduk.
 y1 = sin(x);
 y2 = cos(x);
@@ -39,14 +36,12 @@ plot(x,c,'r-x',x,s,'b-o');
 xlabel('x');
 ylabel('cos(x) ve sin(x)');
 title('0 - 360 derece arası kosinus ve sinus');
-legend('cos(x)','sin(x)',-1);
+legend('cos(x)','sin(x)');
 
 a1 = 10:20
 a2 = 20:30
-% SUBPLOT
 
-
-%3D
+%% 3D
 y = -10:0.5:10;
 x = -10:0.5:10;
 [X, Y] = meshgrid(x, y);

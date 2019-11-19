@@ -1,8 +1,6 @@
-% tekrar 
+%% tekrar 
 % uc basamaklı tek ve cift sayilari saklayan vektorler
-
 % ilk 10 dogal sayinin karelerinin toplamı
-
 a = 1:10
 b = sum(a.^2)
 % daha iyisi sum(x) sekline tek satir 
@@ -21,10 +19,11 @@ ones(3,1) % 3x1 birlik matris
 diag(ones(3,1))
 ones(3) - eye(3) + zeros(3) + diag(ones(3,1))
 
+%% colon operatörü
 b = [1 2 3
     4 5 6
     7 8 9] % gorundugu gibi
-    
+
 % kolon operatoru kullandarak b nin tum elemanlarını iceren sutun matris 
 c = b(:) % hepsini ver 
 d = b(:,3)
@@ -80,7 +79,3 @@ x = b\b % oldu mldivide ?
 % hocanin notlarina bak
 %!!!handle karsiligi yok
 % patch verilen noktaların birlesiminin icini boyar 
-
-
-
-

@@ -3,6 +3,8 @@
 > Kocaeli Universitesi robotlar icin matematik temelleri dersinde aldıgım notlar ve odevler ve çalışmaları içerir 
 > Önek olarak Sinyal ve Sistem dersi notları'da içerir 
 
+temelmatlab klasörü yapbenzet klasöründeki dosyaların düzenlenmiş hallerini içerir
+
 ## Araçlar 
  - MATLAB
  - Robotics Toolbox (Peter Corke)
@@ -11,18 +13,14 @@
  - C++ Egien
  
 ## Konular 
- - ! mlxleri incele 
+ - Konu başlıklarını çıkart
 
 ## Notlar 
  - Octave syntaxını matlab sytaxıca cevir
- - Repository'i laboratuvar'a uyumlu hale getir 
  - Dosyaları ve isimleri düzenle
+ - Vize Calisma programı hazırla
+ - Notlari temize çek
 
-
-Octave'ın Debian tabanlı sistemlerde kurulumu
-```sh
- $ sudo apt install octave 
-```
 
 C++ Compiler setinin Debian tabanlı sistemlerde kurulumu 
 ```sh

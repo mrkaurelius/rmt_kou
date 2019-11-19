@@ -3,75 +3,74 @@
 zeros(5,1) % 5 satır 1 sutun 
 5^3*2-1 % operator onceligi
 b = .157e1 % bilimsel gosterim
-
-!1 % !!! matlabda isletim sistemi komutu cagirir octavda not olarak kullanılıyor
-not(0) % matlab'ta bunu kullan
+not(0) % mantıksal fonksyon
 a = (1 + eps) % eps = 2 sayı arasındaki en az fark
 
 %% char dizisi
 isim1 = 'mehmet'
 isim2 = ['ali','veli']
-isim3 = "ali veli", "ahmet mehmet" % virgulden sonra ayrı bir ifade olarak algılanır 
+isim3 = "ali veli", "ahmet mehmet" % bekledigin gibi calismaz pythondakine benzer 
 isim4 = ["ali mehmet";"ahmet hasan"; "asdfasdf"]
-% isim5 = ["asdf" , "qwer"; 1234 , 5678 ] % octavda karsilihi yok matlabda hepsini string
-% yapıyor
+arr1 = ["asdf" , "qwer"; 1234 , 5678 ] % tum degerleri direk string yapar 
 
+%% colon operatörü ile vektör oluşturma
 cift_sayilar = 0:2:10 % comprehesion
 cift_sayilar_tersten = 10:-2:0
 
 x = 8;
 format rat
-m1 = x./(1:2:x+1) % ! bunu anla
+m1 = x./(1:2:x+1); % vektördeki her elemanı teker teker  8'e böl
+%% linspace
+linspace(0,10); % linspace 2 parametre alırsa parca sayisini default 100 olarak atar
+l0 = linspace(0,5,3); % 0 dan 5 e 3 esit parcaya bol
+l1 = linspace(10,0,5); % 10 dan 0 a kadar 5 esit parcaya bol
 
-%% !!! ODEV LINSPACE FONKSYONUNU IMPLEMENT ET
-linspace(0,10)
-% linspace 2 parametre alırsa parca sayisini default 100 olarak atar
-l0 = linspace(0,5,3)
-l1 = linspace(10,0,5) % 10 dan 0 a kadar 5 esit parcaya bol
-% fonskyona gelen parametre sayısı ??
+%% conv
+u = [1 0 1]
+v = [2 7]
+w = conv(u,v) % polinom çarpımı 
 
-A = [1 2 3;4 5 6;7 8 9]
-alt_matris = A(:,end)
+%% matrisin koselerdeki ve cevresindeki elemanlarını bulma  ? 
+A = [1 2 3;4 5 6;7 8 9];
+alt_matris = A(:,end); % son sutun
+A1 = [A;1 2 3]; % matrisin yapısını bozacak ise calismaz
+v = [1 2 3] % vektorun her elemanın teker teker ustunu al 
+v = v.^2
 
-%matrisin koselerdeki elemanlarını bulma cevresi
-A2 = [A;1 2 3] % matrise matris ekleme sutun sayisi ayni oldugu surece keler 
+%% matrisin tersi asal ekseni rankı ve determinant
+m1 = rand(3,4)
+x = pinv(m1) * m1 % pseudo inverse 
+x = m1 * pinv(m1) % çarpımın değişme özelliği yok
 
-vek = [1 2 3] % vektorun her elemanın teker teker ustunu al 
-
-eye(2,3) % birim matris tum bir matrisi tersiyle carparsan tersi cikar 
-% eye() *-> birim matris
+% eye, identity matrix, birim matris 
 diag(ones(1,3))
 % daig() -> kosegeni d vektorun elemanlarından olsuan diagonal bir matris uretir
 A = [1 2 3;4 5 6;7 8 9; 10 11 12]
-diag(A) % parametreden geçen eleman farkı (matris -> vektor ) (vektor -> matris) seklinde
-% det() determinant 
+diag(A) % asal eksen elemanlarını sutun matrix olarak verir
 
 m = [1 2;3 4]
 m1 = [1 2;3 4;2 4]
 m2 = [m;1 8]
-det(m)
+m3 = magic(2)
+det(m3)
 
 % bir matrisin rankı ne icin kullanılır matrisin rankı tam olarak nedir 
-% denkelem cozmede nerde nasıl kullanıyoruz
-% denklenlerin birinden farklı olup olmadigini anlama ?? tam olarak anla
+% the rank of a matrix is can be defined as the maximum number of linearly
+% independent row vectors in the matrix 
 rank(m)
 rank(m1)
 rank(m2)
-% !!! kacirdigim fonksyanalara bak
 
-%y = log10(1000) % parametrelere bak 
-% opengl patlıyor gnu plot kullanmaya calis
+%% !!! kacirdigim fonksyanalara bak
 
-and_deneme = 5&1
-and_deneme = 0&1
-and_deneme = 0&5
-and_deneme = 1&5
+%% logic
+and_deneme = 5&1 % 1
+and_deneme = 0&1 % 0
+and_deneme = 0&5 % 0
+and_deneme = 1&5 % 1
 
-% baya bir fonskyon kaçtı onlara bak
+c1 = {int8([2 3]) "merhaba yalan dunya"} % array
 
-c1 = {int8([2 3]) "merhaba yalan dunya"} % burada sair ne anlatmak istemis
-
-%% ODEVLER ILE ILGILI KONULAR 
-myfunc(1,1,1) % bu fonskyonu tanımla
-%conv fonksyonunu implemt et 
-conv
+%% ödev
+% myfunc(1,1,1) % bu fonskyonu tanımla
+% conv fonksyonunu implemt et 
