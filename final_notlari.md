@@ -1,0 +1,2 @@
+- eigenin apisini finalde cıkacak
+- matlab eigen donusumu cikacak 

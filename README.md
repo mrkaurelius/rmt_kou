@@ -2,8 +2,7 @@
 
 > Kocaeli Universitesi robotlar icin matematik temelleri dersinde aldıgım notlar ve odevler ve çalışmaları içerir 
 > Önek olarak Sinyal ve Sistem dersi notları'da içerir 
-
-temelmatlab klasörü yapbenzet klasöründeki dosyaların düzenlenmiş hallerini içerir
+> temelmatlab klasörü yapbenzet klasöründeki dosyaların düzenlenmiş hallerini içerir
 
 ## Araçlar 
  - MATLAB
@@ -27,4 +26,21 @@ C++ Compiler setinin Debian tabanlı sistemlerde kurulumu
 $ sudo apt install build-essential
 ```
 
+CLI de MATLAB calistirma ve X kullanma 
+```sh
+matlab -nodesktop
+```
+
+Toolbox'ı matlab pathına ekleme
+```MATLAB
+addpath /home/mrk0/gelistirme/octave/corke/common
+startup_rvc
+```
+
+C++ Eigen kutuphenesinin apt ile kurulumu 
+```sh
+$ sudo apt install libeigen3-dev
+```
+
+#### eksik görürseniz pull request atmaktan çekinmeyin
 [![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
