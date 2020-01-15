@@ -1,2 +1,4 @@
-- eigenin apisini finalde cıkacak
-- matlab eigen donusumu cikacak 
+## Finalde Çıkacak Konular 
+- Eigen API'si 
+- MATLAB Eigen Dönüşümleri
+- MATLAB matrix manipulasyonlarını anla

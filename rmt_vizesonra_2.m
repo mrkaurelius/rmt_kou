@@ -29,6 +29,5 @@
 % kırmızı:X
 % mavi:Y
 
-
 % m = randi([10 25], 5)
 % printf("yalan dunya\n")
